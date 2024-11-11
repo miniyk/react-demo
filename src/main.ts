@@ -27,5 +27,5 @@ setupElIcons(app);
 setupI18n(app);
 // 注册动态路由
 setupPermission();
-console.log('first')
+// console.log('first')
 app.use(router).mount("#app");
